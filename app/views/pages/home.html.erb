@@ -1,0 +1,18 @@
+<h2>Cette application vous permettra :</h2>
+<h3>de connaître la valeur d'une cryptomonnaie à un instant T</h3>
+
+<%= form_tag 'home', method: "post" do %>
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <p>
+    <input type="text" name="name" placeholder="Nom de la cryptomonnaie">
+  </p>
+  <p>
+    <input type="submit" value="Connaître la valeur">
+  </p>
+<% end %>
+
+
+
+<% @cryptos.each do |crypto| %>
+  <p>La valeur de <%= crypto.name %> est de : <%= crypto.value %></p>
+<% end %>
