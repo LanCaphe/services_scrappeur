@@ -9,6 +9,7 @@
 <p>*Cloner le répo
 *L'ouvrir dans votre terminer 
 *Faire un `bundle install --without production ` car nous n'uttilisons pas tout les deux postgres.
+*Uttiliser la commande `rails db:migrat` en console
 *Lancer le serveur local ( on a échoué le portage sur heroku) avec la commande `rails s`
 *ouvrir votre navigateur et aller sur [lien](http://localhost:3000/).</p>
 
