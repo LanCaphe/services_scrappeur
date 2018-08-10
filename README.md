@@ -13,6 +13,9 @@
 *Lancer le serveur local ( on a échoué le portage sur heroku) avec la commande `rails s`
 *ouvrir votre navigateur et aller sur [lien](http://localhost:3000/).</p>
 
+## Usage:
+Créé une application qui permet de connaitre la valeur d'une cryptomonnaie au moment ou on la lance. Le formulaire est sensible à la casse pensé à entré le nom de votre cryptomonnaie avec une Majuscule.
+
 Bonne correction 
 
 Maxime et Manon, team de Lille
